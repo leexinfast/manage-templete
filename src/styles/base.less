@@ -1,0 +1,86 @@
+.pt(@size) {
+  padding-top: @size;
+}
+
+.pl(@size) {
+  padding-left: @size;
+}
+
+.pr(@size) {
+  padding-right: @size;
+}
+
+.pb(@size) {
+  padding-bottom: @size;
+}
+
+.ml(@size) {
+  margin-left: @size;
+}
+
+.mr(@size) {
+  margin-right: @size;
+}
+
+.mb(@size) {
+  margin-bottom: @size;
+}
+
+.pt-10 {
+  .pt(10px)
+}
+
+.pl-24 {
+  .pl(24px)
+}
+
+.pr-24 {
+  .pr(24px)
+}
+
+.pb-20 {
+  .pb(20px)
+}
+
+.ml-10 {
+  .ml(10px)
+}
+
+.ml-20 {
+  .ml(20px)
+}
+
+.mb-20 {
+  .mb(20px)
+}
+
+.mr-10 {
+  .mr(10px)
+}
+
+.color-gray {
+   color: gray;
+}
+.line-hover {
+  cursor: pointer;
+  color: blue;
+  text-decoration: underline;
+}
+.flex-row-between {
+   display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+.flex-row-h {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+}
+.border-btm {
+  border-bottom: 1px solid #cccccc;
+  padding: 3px 0;
+  &:last-child {
+    border: none;
+    padding: 0;
+  }
+}
